@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Base de Datos Prueba</string>
+    <string name="horasalida">HoraSalida</string>
+    <string name="registro_usuario">REGISTRO USUARIO</string>
+</resources>
