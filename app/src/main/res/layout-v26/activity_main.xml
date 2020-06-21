@@ -12,7 +12,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="6dp"
         android:orientation="horizontal">
 
         <TextView
@@ -26,121 +26,347 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <LinearLayout
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="739dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editNombrePersona"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/ApellidoPaterno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apellido Paterno"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editApellidPaterno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/ApellidoMaterno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apellido Materno"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editApellidoMaterno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:ignore="TextFields" />
+
+            <TextView
+                android:id="@+id/CURP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CURP"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editCURP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/NSS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NSS"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editNSS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/RFC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RFC"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editRFC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/FechaNacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fecha de Nacimiento"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editFechaNacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Genero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genero"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editGenero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/EstadoCivil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estado Civil"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editEstadoCivil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefono"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Celular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Celular"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editCelular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:ignore="TextFields" />
+
+            <TextView
+                android:id="@+id/Calle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calle"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editCalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/NumeroExterno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero Exterior"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editNumeroExterior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/NumeroInterior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero Interior"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editNumeroInterior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Colonia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Colonia"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editColonia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Delegacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delegacion"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editDelegacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Estado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estado"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Nacionalidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nacionalidad"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editNacionalidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/CodigoPostal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Código Postal"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editCodigoPostal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/ContactoEmergacia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contacto de Emergencia"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editContactoEmergencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/TelefonoEmergencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefono de Emergencia"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/editTelefonoEmergencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+    <Button
+        android:id="@+id/btnSiguiente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginRight="10dp"
-        android:orientation="vertical">
+        android:layout_marginTop="10dp"
+        android:text="Siguiente"
+        tools:ignore="HardcodedText" />
 
-        <TextView
-            android:id="@+id/Empresa"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Empresa"
-            tools:ignore="HardcodedText" />
 
-        <EditText
-            android:id="@+id/editNombresEmpresa"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
 
-        <TextView
-            android:id="@+id/Lugar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Lugar"
-            tools:ignore="HardcodedText" />
 
-        <EditText
-            android:id="@+id/editLugar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
 
-        <TextView
-            android:id="@+id/Email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Email"
-            tools:ignore="HardcodedText" />
-
-        <EditText
-            android:id="@+id/editEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:ems="10"
-            android:inputType="textPersonName"
-            tools:ignore="LabelFor,TextFields" />
-
-        <TextView
-            android:id="@+id/telefono"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Teléfono"
-            tools:ignore="HardcodedText" />
-
-        <EditText
-            android:id="@+id/editTelefono"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <TextView
-            android:id="@+id/Fecha"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Fecha"
-            tools:ignore="HardcodedText" />
-
-        <EditText
-            android:id="@+id/editFecha"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <TextView
-            android:id="@+id/HoraLlegada"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Hora Llegada"
-            tools:ignore="HardcodedText" />
-
-        <EditText
-            android:id="@+id/editHoraLlegada"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <TextView
-            android:id="@+id/HoraSalida"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/horasalida" />
-
-        <EditText
-            android:id="@+id/editHoraSalida"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <Button
-            android:id="@+id/btnAgregarUsuario"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Enviar"
-            tools:ignore="HardcodedText" />
-
-    </LinearLayout>
 
 </LinearLayout>
